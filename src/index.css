@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2rem 4rem;
+
+  background-color: rgba(194, 110, 242, 0.183);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section {
+  width: 100%;
+  max-width: 768px;
+  height: max-content;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  color: rgb(63, 63, 63);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 10px 0 rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3.3rem 5rem;
+}
+
+section img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+section p {
+  color: rgb(66, 66, 66);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section button {
+  background: rgb(163, 99, 206);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+section button:hover {
+  background: rgb(52, 52, 52);
+}
+
+section div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
