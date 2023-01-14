@@ -1,10 +1,16 @@
 # React fade into view on scroll
 
-This is a React component that fades in an element when it is scrolled into view.
+This is a React component that fades in an element when it is scrolled into view
 
 ## Demo
 
 [https://react-fade-in-into-view.vercel.app/](https://react-fade-in-into-view.vercel.app/)
+
+#### GIF Example
+
+<img src="react-fade-into-view.gif" alt="screenshot" width="300">
+
+> Note: The gif is not a real-time representation of the animation
 
 ## Usage
 
