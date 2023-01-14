@@ -26,3 +26,7 @@ npm start
 - **The only important part is the `FadeIntoView` component** and its css. The rest is just for demo purposes (`index.css` is just for styling, not essential).
 
 - _NOTE: Please remember that **any element inside `<FadeInSection />` will have a `.fade-into-view` div as the parent**_
+
+## License
+
+[MIT](LICENSE.md)
