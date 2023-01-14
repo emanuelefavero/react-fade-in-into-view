@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ExampleElement({ _ }: { _: any }) {
   return (
     <>

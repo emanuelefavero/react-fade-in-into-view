@@ -10,7 +10,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 2rem 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   background-color: rgba(194, 110, 242, 0.183);
 
@@ -41,6 +44,12 @@ section {
   align-items: center;
   flex-direction: column;
   padding: 3.3rem 5rem;
+}
+
+@media screen and (max-width: 650px) {
+  section {
+    padding: 3.3rem 2rem;
+  }
 }
 
 section img {
