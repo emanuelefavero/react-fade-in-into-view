@@ -2,6 +2,10 @@
 
 This is a React component that fades in an element when it is scrolled into view.
 
+## Demo
+
+[https://react-fade-in-into-view.vercel.app/](https://react-fade-in-into-view.vercel.app/)
+
 ## Usage
 
 - clone this repo, then:
