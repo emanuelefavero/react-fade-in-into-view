@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import './FadeIntoView.css'
+import styles from './FadeIntoView.module.scss'
 
 function FadeIntoView({ children }: { children: React.ReactNode }) {
   const [isVisible, setVisible] = useState(true)
@@ -25,8 +25,8 @@ function FadeIntoView({ children }: { children: React.ReactNode }) {
 
   return (
     <div
-      className={`fade-into-view ${isVisible ? 'is-visible' : ''} ${
-        alreadyViewed ? 'already-viewed' : ''
+      className={`${styles.fadeIntoView} ${isVisible ? styles.isVisible : ''} ${
+        alreadyViewed ? styles.alreadyViewed : ''
       }`}
       ref={domRef}
     >
